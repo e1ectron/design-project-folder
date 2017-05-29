@@ -1079,6 +1079,142 @@ end run</string>
 					<dict>
 						<key>tokenizedValue</key>
 						<array>
+							<string>_inspiration</string>
+						</array>
+					</dict>
+					<key>targetLocation</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<true/>
+						<key>selectedVariableUUID</key>
+						<string>23FC2856-AB36-45F5-B03E-81C04103885C</string>
+						<key>variableUUIDsInMenu</key>
+						<array>
+							<string>8977AD6D-33FF-4351-8F1E-ABA33C06E67E</string>
+							<string>23FC2856-AB36-45F5-B03E-81C04103885C</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/New Folder.action</string>
+				<key>ActionName</key>
+				<string>Новая папка</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>newName</key>
+					<string>_inspiration</string>
+					<key>targetLocation</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.MakeNewFolder</string>
+				<key>CFBundleVersion</key>
+				<string>1.2.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>NewFolderAction</string>
+				<key>IgnoresInput</key>
+				<true/>
+				<key>InputUUID</key>
+				<string>8530366F-2D5F-46F3-93BB-8A9C034B1090</string>
+				<key>Keywords</key>
+				<array>
+					<string>Папка</string>
+					<string>Создать</string>
+					<string>Сделать</string>
+					<string>Новый</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>C0392C8E-AA43-4C9F-88F1-A90FF75CA333</string>
+				<key>StartAction</key>
+				<false/>
+				<key>UUID</key>
+				<string>B9B93B66-EE9B-43BB-B2B4-1D3A942D5161</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>newName</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string>~/Desktop</string>
+						<key>name</key>
+						<string>targetLocation</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.000000:1338.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>v.1.2.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>newName</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
 							<string>_assets</string>
 						</array>
 					</dict>
@@ -1177,14 +1313,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:1250.000000</string>
+				<string>309.000000:1468.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1289,7 +1425,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>309.000000:1292.000000</string>
+				<string>309.000000:1510.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1422,145 +1558,12 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:1422.000000</string>
+				<string>309.000000:1640.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>v.1.2.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>newName</key>
-					<dict>
-						<key>tokenizedValue</key>
-						<array>
-							<string>inspiration</string>
-						</array>
-					</dict>
-					<key>targetLocation</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<true/>
-						<key>selectedVariableUUID</key>
-						<string>8977AD6D-33FF-4351-8F1E-ABA33C06E67E</string>
-						<key>variableUUIDsInMenu</key>
-						<array>
-							<string>8977AD6D-33FF-4351-8F1E-ABA33C06E67E</string>
-						</array>
-					</dict>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/New Folder.action</string>
-				<key>ActionName</key>
-				<string>Новая папка</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>newName</key>
-					<string>inspiration</string>
-					<key>targetLocation</key>
-					<string>8977AD6D-33FF-4351-8F1E-ABA33C06E67E</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.MakeNewFolder</string>
-				<key>CFBundleVersion</key>
-				<string>1.2.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryFilesAndFolders</string>
-				</array>
-				<key>Class Name</key>
-				<string>NewFolderAction</string>
-				<key>IgnoresInput</key>
-				<true/>
-				<key>InputUUID</key>
-				<string>8530366F-2D5F-46F3-93BB-8A9C034B1090</string>
-				<key>Keywords</key>
-				<array>
-					<string>Папка</string>
-					<string>Создать</string>
-					<string>Сделать</string>
-					<string>Новый</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>C0392C8E-AA43-4C9F-88F1-A90FF75CA333</string>
-				<key>UUID</key>
-				<string>B9B93B66-EE9B-43BB-B2B4-1D3A942D5161</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>newName</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<string>~/Desktop</string>
-						<key>name</key>
-						<string>targetLocation</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<false/>
-				<key>location</key>
-				<string>309.000000:1464.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1686,14 +1689,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:1506.000000</string>
+				<string>309.000000:1770.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1783,6 +1786,8 @@ end run</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>CE813C36-8099-4D83-B9D0-73AF43F8D95C</string>
+				<key>StartAction</key>
+				<false/>
 				<key>UUID</key>
 				<string>984560D8-7A21-42EF-8F63-52765DCC9C15</string>
 				<key>UnlocalizedApplications</key>
@@ -1819,14 +1824,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:1548.000000</string>
+				<string>309.000000:1900.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1952,14 +1957,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:1590.000000</string>
+				<string>309.000000:2030.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -2085,14 +2090,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:1632.000000</string>
+				<string>309.000000:2160.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -2218,14 +2223,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:1674.000000</string>
+				<string>309.000000:2290.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -2351,14 +2356,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:1716.000000</string>
+				<string>309.000000:2420.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -2484,14 +2489,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:1758.000000</string>
+				<string>309.000000:2550.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -2699,157 +2704,157 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:1866.000000</string>
+				<string>309.000000:2806.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>124EB087-6C86-46B3-9182-D57155F86CA6</key>
-		<dict>
-			<key>from</key>
-			<string>305276BA-1FA9-4170-98C9-B18E2FB86A41 - 305276BA-1FA9-4170-98C9-B18E2FB86A41</string>
-			<key>to</key>
-			<string>ED228C03-B672-4502-9741-1A41348B69FB - ED228C03-B672-4502-9741-1A41348B69FB</string>
-		</dict>
-		<key>22EFCB81-F7EE-4FDA-A448-5270562481C3</key>
-		<dict>
-			<key>from</key>
-			<string>37264D30-EC54-4FA6-B0BD-FC5A9B29903D - 37264D30-EC54-4FA6-B0BD-FC5A9B29903D</string>
-			<key>to</key>
-			<string>61C26FE8-7A73-40B7-8BFA-31A388EE8B7B - 61C26FE8-7A73-40B7-8BFA-31A388EE8B7B</string>
-		</dict>
-		<key>2A89BED2-46CB-4CD9-B122-9AA95B7E157A</key>
-		<dict>
-			<key>from</key>
-			<string>B3BD8C70-6E08-4808-88AC-B235A5CAD9AF - B3BD8C70-6E08-4808-88AC-B235A5CAD9AF</string>
-			<key>to</key>
-			<string>50F9DFA9-29AE-48E7-AC24-C551402C7927 - 50F9DFA9-29AE-48E7-AC24-C551402C7927</string>
-		</dict>
-		<key>374FA4C5-9BAA-4E84-9430-055B59BA0F32</key>
-		<dict>
-			<key>from</key>
-			<string>E8EE0C45-2811-498B-B57F-35D8049EBA13 - E8EE0C45-2811-498B-B57F-35D8049EBA13</string>
-			<key>to</key>
-			<string>2E5DA693-B620-4B20-A614-F9C663626AA2 - 2E5DA693-B620-4B20-A614-F9C663626AA2</string>
-		</dict>
-		<key>3B7E6AB9-FB5B-4CCB-B315-6AEC8B0A7411</key>
-		<dict>
-			<key>from</key>
-			<string>09F79AA1-4034-43E6-9A1B-6B126B6B1F36 - 09F79AA1-4034-43E6-9A1B-6B126B6B1F36</string>
-			<key>to</key>
-			<string>0BA9CDA0-4EA8-4B45-BAFB-F557E4247FA7 - 0BA9CDA0-4EA8-4B45-BAFB-F557E4247FA7</string>
-		</dict>
-		<key>54F59490-FBB9-421D-8A0C-7AFB1581C99F</key>
-		<dict>
-			<key>from</key>
-			<string>984560D8-7A21-42EF-8F63-52765DCC9C15 - 984560D8-7A21-42EF-8F63-52765DCC9C15</string>
-			<key>to</key>
-			<string>E8EE0C45-2811-498B-B57F-35D8049EBA13 - E8EE0C45-2811-498B-B57F-35D8049EBA13</string>
-		</dict>
-		<key>66396C9B-FDD1-493E-BC40-8C18B2FD93B3</key>
-		<dict>
-			<key>from</key>
-			<string>58D1E2C4-4DB2-42D4-B8AA-1B1916A85906 - 58D1E2C4-4DB2-42D4-B8AA-1B1916A85906</string>
-			<key>to</key>
-			<string>305276BA-1FA9-4170-98C9-B18E2FB86A41 - 305276BA-1FA9-4170-98C9-B18E2FB86A41</string>
-		</dict>
-		<key>7A7D0BBC-7D01-42C0-AC0E-9CBE3895CB32</key>
-		<dict>
-			<key>from</key>
-			<string>2E5DA693-B620-4B20-A614-F9C663626AA2 - 2E5DA693-B620-4B20-A614-F9C663626AA2</string>
-			<key>to</key>
-			<string>787C4234-02C4-49BE-9658-E577916B635F - 787C4234-02C4-49BE-9658-E577916B635F</string>
-		</dict>
-		<key>83734A73-B525-4630-A293-63356824EFAE</key>
-		<dict>
-			<key>from</key>
-			<string>546600EB-700F-442C-ACDF-62B18A5E5658 - 546600EB-700F-442C-ACDF-62B18A5E5658</string>
-			<key>to</key>
-			<string>09F79AA1-4034-43E6-9A1B-6B126B6B1F36 - 09F79AA1-4034-43E6-9A1B-6B126B6B1F36</string>
-		</dict>
-		<key>8E1EDB0F-5F96-460F-AFA5-78A069C9026E</key>
+		<key>0CE5DB1C-99F9-4610-8AF2-45594A397BCC</key>
 		<dict>
 			<key>from</key>
 			<string>8078BFB8-33F4-490E-A77E-BBD60A8203D8 - 8078BFB8-33F4-490E-A77E-BBD60A8203D8</string>
 			<key>to</key>
 			<string>984560D8-7A21-42EF-8F63-52765DCC9C15 - 984560D8-7A21-42EF-8F63-52765DCC9C15</string>
 		</dict>
-		<key>9A29F246-8E97-4B2F-8054-372943EB6633</key>
+		<key>106857BB-06B0-4874-814A-2AA3F8394000</key>
 		<dict>
 			<key>from</key>
-			<string>AE229FF2-286B-44C2-86F5-E52370DDA759 - AE229FF2-286B-44C2-86F5-E52370DDA759</string>
-			<key>to</key>
-			<string>546600EB-700F-442C-ACDF-62B18A5E5658 - 546600EB-700F-442C-ACDF-62B18A5E5658</string>
-		</dict>
-		<key>A56EC3BE-C2ED-4F4C-B099-31D618EC1A5E</key>
-		<dict>
-			<key>from</key>
-			<string>0BA9CDA0-4EA8-4B45-BAFB-F557E4247FA7 - 0BA9CDA0-4EA8-4B45-BAFB-F557E4247FA7</string>
-			<key>to</key>
 			<string>B3BD8C70-6E08-4808-88AC-B235A5CAD9AF - B3BD8C70-6E08-4808-88AC-B235A5CAD9AF</string>
+			<key>to</key>
+			<string>B9B93B66-EE9B-43BB-B2B4-1D3A942D5161 - B9B93B66-EE9B-43BB-B2B4-1D3A942D5161</string>
 		</dict>
-		<key>AEDECA47-2B3A-48E3-93FA-5B89E8BB2799</key>
+		<key>2B1F21E7-E10F-4DCF-B1F5-11C4763D05ED</key>
 		<dict>
 			<key>from</key>
-			<string>61C26FE8-7A73-40B7-8BFA-31A388EE8B7B - 61C26FE8-7A73-40B7-8BFA-31A388EE8B7B</string>
+			<string>58D1E2C4-4DB2-42D4-B8AA-1B1916A85906 - 58D1E2C4-4DB2-42D4-B8AA-1B1916A85906</string>
 			<key>to</key>
-			<string>AE229FF2-286B-44C2-86F5-E52370DDA759 - AE229FF2-286B-44C2-86F5-E52370DDA759</string>
+			<string>305276BA-1FA9-4170-98C9-B18E2FB86A41 - 305276BA-1FA9-4170-98C9-B18E2FB86A41</string>
 		</dict>
-		<key>B09666E7-B108-4AB8-ABEB-1A79B8E02434</key>
+		<key>3875855B-5B3A-44CA-94EA-D834D21A9EE7</key>
 		<dict>
 			<key>from</key>
-			<string>50F9DFA9-29AE-48E7-AC24-C551402C7927 - 50F9DFA9-29AE-48E7-AC24-C551402C7927</string>
+			<string>09F79AA1-4034-43E6-9A1B-6B126B6B1F36 - 09F79AA1-4034-43E6-9A1B-6B126B6B1F36</string>
 			<key>to</key>
-			<string>7B1F71F0-00BC-44D1-ADAD-DBE776B1635C - 7B1F71F0-00BC-44D1-ADAD-DBE776B1635C</string>
+			<string>0BA9CDA0-4EA8-4B45-BAFB-F557E4247FA7 - 0BA9CDA0-4EA8-4B45-BAFB-F557E4247FA7</string>
 		</dict>
-		<key>C65CDDF9-ED88-44EB-84CF-877ECE78683D</key>
+		<key>40318E17-13AE-430B-A4BC-EDDE28831595</key>
 		<dict>
 			<key>from</key>
-			<string>7B1F71F0-00BC-44D1-ADAD-DBE776B1635C - 7B1F71F0-00BC-44D1-ADAD-DBE776B1635C</string>
+			<string>E8EE0C45-2811-498B-B57F-35D8049EBA13 - E8EE0C45-2811-498B-B57F-35D8049EBA13</string>
 			<key>to</key>
-			<string>A489BA9F-A13E-4114-9EDB-EC28E5B89716 - A489BA9F-A13E-4114-9EDB-EC28E5B89716</string>
+			<string>2E5DA693-B620-4B20-A614-F9C663626AA2 - 2E5DA693-B620-4B20-A614-F9C663626AA2</string>
 		</dict>
-		<key>CC7CD3A7-9E0A-4E22-9F84-DB4E43DE34CE</key>
+		<key>4D62833D-CA53-45CE-AD1D-BB02A8D17E7A</key>
 		<dict>
 			<key>from</key>
 			<string>0061D24F-91C6-46AD-BA69-6F5A779E860D - 0061D24F-91C6-46AD-BA69-6F5A779E860D</string>
 			<key>to</key>
 			<string>37264D30-EC54-4FA6-B0BD-FC5A9B29903D - 37264D30-EC54-4FA6-B0BD-FC5A9B29903D</string>
 		</dict>
-		<key>CD8EB42A-60AF-4C2F-AB49-7BBB9293EF75</key>
+		<key>4E57F15D-9011-45B4-96CA-BD5885DD325F</key>
+		<dict>
+			<key>from</key>
+			<string>984560D8-7A21-42EF-8F63-52765DCC9C15 - 984560D8-7A21-42EF-8F63-52765DCC9C15</string>
+			<key>to</key>
+			<string>E8EE0C45-2811-498B-B57F-35D8049EBA13 - E8EE0C45-2811-498B-B57F-35D8049EBA13</string>
+		</dict>
+		<key>58E68E22-D3C2-431A-8BA8-0BAF76D13927</key>
+		<dict>
+			<key>from</key>
+			<string>37264D30-EC54-4FA6-B0BD-FC5A9B29903D - 37264D30-EC54-4FA6-B0BD-FC5A9B29903D</string>
+			<key>to</key>
+			<string>61C26FE8-7A73-40B7-8BFA-31A388EE8B7B - 61C26FE8-7A73-40B7-8BFA-31A388EE8B7B</string>
+		</dict>
+		<key>663CAB70-11E4-4D2F-A7E1-F56347EB7C42</key>
+		<dict>
+			<key>from</key>
+			<string>546600EB-700F-442C-ACDF-62B18A5E5658 - 546600EB-700F-442C-ACDF-62B18A5E5658</string>
+			<key>to</key>
+			<string>09F79AA1-4034-43E6-9A1B-6B126B6B1F36 - 09F79AA1-4034-43E6-9A1B-6B126B6B1F36</string>
+		</dict>
+		<key>69AEA2E7-60CF-4609-B5D3-DC188D8C6EB6</key>
+		<dict>
+			<key>from</key>
+			<string>305276BA-1FA9-4170-98C9-B18E2FB86A41 - 305276BA-1FA9-4170-98C9-B18E2FB86A41</string>
+			<key>to</key>
+			<string>ED228C03-B672-4502-9741-1A41348B69FB - ED228C03-B672-4502-9741-1A41348B69FB</string>
+		</dict>
+		<key>80CF3270-3470-49F5-8471-D8391ED1CAAE</key>
+		<dict>
+			<key>from</key>
+			<string>2E5DA693-B620-4B20-A614-F9C663626AA2 - 2E5DA693-B620-4B20-A614-F9C663626AA2</string>
+			<key>to</key>
+			<string>787C4234-02C4-49BE-9658-E577916B635F - 787C4234-02C4-49BE-9658-E577916B635F</string>
+		</dict>
+		<key>8CF08795-4438-44B4-B92A-1CBB6CDF7537</key>
+		<dict>
+			<key>from</key>
+			<string>0BA9CDA0-4EA8-4B45-BAFB-F557E4247FA7 - 0BA9CDA0-4EA8-4B45-BAFB-F557E4247FA7</string>
+			<key>to</key>
+			<string>B3BD8C70-6E08-4808-88AC-B235A5CAD9AF - B3BD8C70-6E08-4808-88AC-B235A5CAD9AF</string>
+		</dict>
+		<key>8E84F7DE-B9DF-4E2B-B193-F81A3BA04B0C</key>
 		<dict>
 			<key>from</key>
 			<string>787C4234-02C4-49BE-9658-E577916B635F - 787C4234-02C4-49BE-9658-E577916B635F</string>
 			<key>to</key>
 			<string>0EC8F4A5-8A94-458C-8137-11564988F06A - 0EC8F4A5-8A94-458C-8137-11564988F06A</string>
 		</dict>
-		<key>E8112074-1412-4C23-A3E4-F1E8E9F3AA2F</key>
+		<key>985C9ADD-F335-4962-B971-9DB8D16C2DC3</key>
 		<dict>
 			<key>from</key>
 			<string>A489BA9F-A13E-4114-9EDB-EC28E5B89716 - A489BA9F-A13E-4114-9EDB-EC28E5B89716</string>
 			<key>to</key>
-			<string>B9B93B66-EE9B-43BB-B2B4-1D3A942D5161 - B9B93B66-EE9B-43BB-B2B4-1D3A942D5161</string>
+			<string>8078BFB8-33F4-490E-A77E-BBD60A8203D8 - 8078BFB8-33F4-490E-A77E-BBD60A8203D8</string>
 		</dict>
-		<key>F3634B2A-D0E9-45E7-86CF-BF82BBE0CC41</key>
+		<key>AC1B25A0-B999-4BE8-9665-668B233197FF</key>
+		<dict>
+			<key>from</key>
+			<string>AE229FF2-286B-44C2-86F5-E52370DDA759 - AE229FF2-286B-44C2-86F5-E52370DDA759</string>
+			<key>to</key>
+			<string>546600EB-700F-442C-ACDF-62B18A5E5658 - 546600EB-700F-442C-ACDF-62B18A5E5658</string>
+		</dict>
+		<key>B0ABD567-125D-4EF2-B2FD-1F067BDD1791</key>
+		<dict>
+			<key>from</key>
+			<string>61C26FE8-7A73-40B7-8BFA-31A388EE8B7B - 61C26FE8-7A73-40B7-8BFA-31A388EE8B7B</string>
+			<key>to</key>
+			<string>AE229FF2-286B-44C2-86F5-E52370DDA759 - AE229FF2-286B-44C2-86F5-E52370DDA759</string>
+		</dict>
+		<key>CF0C8B06-2FB9-44B5-B85C-4C6BD3531106</key>
+		<dict>
+			<key>from</key>
+			<string>50F9DFA9-29AE-48E7-AC24-C551402C7927 - 50F9DFA9-29AE-48E7-AC24-C551402C7927</string>
+			<key>to</key>
+			<string>7B1F71F0-00BC-44D1-ADAD-DBE776B1635C - 7B1F71F0-00BC-44D1-ADAD-DBE776B1635C</string>
+		</dict>
+		<key>D7118C4B-6BEC-4FE3-BB25-36E99390B365</key>
 		<dict>
 			<key>from</key>
 			<string>0EC8F4A5-8A94-458C-8137-11564988F06A - 0EC8F4A5-8A94-458C-8137-11564988F06A</string>
 			<key>to</key>
 			<string>58D1E2C4-4DB2-42D4-B8AA-1B1916A85906 - 58D1E2C4-4DB2-42D4-B8AA-1B1916A85906</string>
 		</dict>
-		<key>F98ECD5F-A037-42DB-9FF4-4464BF71962D</key>
+		<key>DEB5B409-A8DB-4196-A663-B3C23F1CBD38</key>
 		<dict>
 			<key>from</key>
 			<string>B9B93B66-EE9B-43BB-B2B4-1D3A942D5161 - B9B93B66-EE9B-43BB-B2B4-1D3A942D5161</string>
 			<key>to</key>
-			<string>8078BFB8-33F4-490E-A77E-BBD60A8203D8 - 8078BFB8-33F4-490E-A77E-BBD60A8203D8</string>
+			<string>50F9DFA9-29AE-48E7-AC24-C551402C7927 - 50F9DFA9-29AE-48E7-AC24-C551402C7927</string>
+		</dict>
+		<key>F2786256-D66F-4EC9-8B6A-4B7B378BF31C</key>
+		<dict>
+			<key>from</key>
+			<string>7B1F71F0-00BC-44D1-ADAD-DBE776B1635C - 7B1F71F0-00BC-44D1-ADAD-DBE776B1635C</string>
+			<key>to</key>
+			<string>A489BA9F-A13E-4114-9EDB-EC28E5B89716 - A489BA9F-A13E-4114-9EDB-EC28E5B89716</string>
 		</dict>
 	</dict>
 	<key>variables</key>
